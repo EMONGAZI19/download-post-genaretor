@@ -9,7 +9,7 @@ document.getElementById('movieForm').addEventListener('submit', function (e) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${getVal('title')} </title>
+  <title>${getVal('title')}</title>
   <style>
     body {
       background-color: #111;
@@ -122,39 +122,39 @@ document.getElementById('movieForm').addEventListener('submit', function (e) {
   <strong>Fast Download</strong> আপনার নেট স্পিড এর উপর নির্ভর করে। অতিরিক্ত ভিজিটরের কারণে যদি ওয়ান ক্লিক <strong>GDrive-1, 2, 3</strong> থেকে ডাউনলোড না হয়, তাহলে অন্যান্য <strong>২-টি অপশন</strong> <strong>GDTOT</strong> ও <strong>FilePress</strong> নিচে দেওয়া আছে ঐ গুলো দিয়ে ডাউনলোড করবেন। টেকনিক্যাল সমস্যায় সব লিংক কাজ না করলে রি-আপলোড <strong>রিকোয়েস্ট</strong> করুন। রিকোয়েস্টের আগে টেলিগ্রাম চ্যানেলের পিন পোস্টটি দেখে নিন।
 </div>
 
-<div class="section-title">${getVal('titlemain')} </div>
+<div class="section-title">${getVal('titlemain')}</div>
 
 <div class="quality-block">
   <div class="quality-title">Quality- 480P </div>
   <div class="link-group">
-    <a href="${getVal('480pgddrive1')} ">GDrive-1</a>
-    <a href="${getVal('480pgddrive2')} ">GDrive-2</a>
-    <a href="${getVal('480pgddrive1')} ">GDrive-3</a>
+    <a href="${getVal('480pgddrive1')}">GDrive-1</a>
+    <a href="${getVal('480pgddrive2')}">GDrive-2</a>
+    <a href="${getVal('480pgddrive1')}">GDrive-3</a>
   </div>
   <div class="link-group">
-    <a href="${getVal('gdtot480p')} ">GDTOT</a>
-    <a href="${getVal('filepress480p')} ">FilePress</a>
+    <a href="${getVal('gdtot480p')}">GDTOT</a>
+    <a href="${getVal('filepress480p')}">FilePress</a>
   </div>
 </div>
 
 <div class="quality-block">
   <div class="quality-title">Quality- 720P</div>
   <div class="link-group">
-    <a href="${getVal('720pgddrive1')} ">GDrive-1</a>
-    <a href="${getVal('72pgddrive2')} ">GDrive-2</a>
-    <a href="${getVal('720pgddrive3')} ">GDrive-3</a>
+    <a href="${getVal('720pgddrive1')}">GDrive-1</a>
+    <a href="${getVal('72pgddrive2')}">GDrive-2</a>
+    <a href="${getVal('720pgddrive3')}">GDrive-3</a>
   </div>
   <div class="link-group">
-    <a href="${getVal('gdtot720p')} ">GDTOT</a>
-    <a href="${getVal('filepress720')} ">FilePress</a>
+    <a href="${getVal('gdtot720p')}">GDTOT</a>
+    <a href="${getVal('filepress720')}">FilePress</a>
   </div>
 </div>
 
 <div class="quality-block">
   <div class="quality-title">1080P</div>
   <div class="link-group">
-    <a href="${getVal('1080pgddrive1')} ">GDrive-1</a>
-    <a href="${getVal('1080pgddrive2')} ">GDrive-2</a>
+    <a href="${getVal('1080pgddrive1')}">GDrive-1</a>
+    <a href="${getVal('1080pgddrive2')}">GDrive-2</a>
     <a href="${getVal('1080pgddrive3')}">GDrive-3</a>
   </div>
   <div class="link-group">
