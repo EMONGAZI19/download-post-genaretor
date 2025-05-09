@@ -125,11 +125,11 @@ document.getElementById('movieForm').addEventListener('submit', function (e) {
 <div class="section-title">${getVal('titlemain')}</div>
 
 <div class="quality-block">
-  <div class="quality-title">Quality- 480P </div>
+  <div class="quality-title">Quality - 480P</div>
   <div class="link-group">
-    <a href="${getVal('480pgddrive1')}">GDrive-1</a>
-    <a href="${getVal('480pgddrive2')}">GDrive-2</a>
-    <a href="${getVal('480pgddrive1')}">GDrive-3</a>
+    <a href="${getVal('480pgdrive1')}">GDrive-1</a>
+    <a href="${getVal('480pgdrive2')}">GDrive-2</a>
+    <a href="${getVal('480pgdrive3')}">GDrive-3</a>
   </div>
   <div class="link-group">
     <a href="${getVal('gdtot480p')}">GDTOT</a>
@@ -138,28 +138,28 @@ document.getElementById('movieForm').addEventListener('submit', function (e) {
 </div>
 
 <div class="quality-block">
-  <div class="quality-title">Quality- 720P</div>
+  <div class="quality-title">Quality - 720P</div>
   <div class="link-group">
-    <a href="${getVal('720pgddrive1')}">GDrive-1</a>
-    <a href="${getVal('72pgddrive2')}">GDrive-2</a>
-    <a href="${getVal('720pgddrive3')}">GDrive-3</a>
+    <a href="${getVal('720pgdrive1')}">GDrive-1</a>
+    <a href="${getVal('720pgdrive2')}">GDrive-2</a>
+    <a href="${getVal('720pgdrive3')}">GDrive-3</a>
   </div>
   <div class="link-group">
     <a href="${getVal('gdtot720p')}">GDTOT</a>
-    <a href="${getVal('filepress720')}">FilePress</a>
+    <a href="${getVal('filepress720p')}">FilePress</a>
   </div>
 </div>
 
 <div class="quality-block">
-  <div class="quality-title">1080P</div>
+  <div class="quality-title">Quality - 1080P</div>
   <div class="link-group">
-    <a href="${getVal('1080pgddrive1')}">GDrive-1</a>
-    <a href="${getVal('1080pgddrive2')}">GDrive-2</a>
-    <a href="${getVal('1080pgddrive3')}">GDrive-3</a>
+    <a href="${getVal('1080pgdrive1')}">GDrive-1</a>
+    <a href="${getVal('1080pgdrive2')}">GDrive-2</a>
+    <a href="${getVal('1080pgdrive3')}">GDrive-3</a>
   </div>
   <div class="link-group">
-    <a href="${getVal('gdtot1080')}">GDTOT</a>
-    <a href="${getVal('filepress1080')}">FilePress</a>
+    <a href="${getVal('gdtot1080p')}">GDTOT</a>
+    <a href="${getVal('filepress1080p')}">FilePress</a>
   </div>
 </div>
 
@@ -177,7 +177,7 @@ document.getElementById('movieForm').addEventListener('submit', function (e) {
 
 </body>
 </html>
-  `.trim();
+`.trim();
 
   document.getElementById('output').value = html;
 });
