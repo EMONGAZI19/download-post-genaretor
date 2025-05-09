@@ -124,6 +124,11 @@ document.getElementById('movieForm').addEventListener('submit', function (e) {
 
 <div class="section-title">${getVal('titlemain')}</div>
 
+<div class="notice" style="border-left-color: #0f0; border-color: #0f0; box-shadow: 0 0 8px rgba(0, 255, 0, 0.2);">
+  <strong style="color: #0f0;">দ্রুত অনলাইন স্ট্রিমিং:</strong> 
+  আপনি চাইলে মুভিটি সরাসরি <strong style="color:#0f0;">GDTOT</strong> থেকে অনলাইনে দেখতে পারেন। এটি সবচেয়ে সহজ ও দ্রুত মাধ্যম!
+</div>
+
 <div class="quality-block">
   <div class="quality-title">Quality - 480P</div>
   <div class="link-group">
