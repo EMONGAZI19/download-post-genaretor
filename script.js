@@ -130,7 +130,7 @@ document.getElementById('movieForm').addEventListener('submit', function (e) {
 </div>
 
 <div class="quality-block">
-  <div class="quality-title">Quality - 480P</div>
+  <div class="quality-title">Quality - ${getVal('480psize')}</div>
   <div class="link-group">
     <a href="${getVal('480pgdrive1')}">GDrive-1</a>
     <a href="${getVal('480pgdrive2')}">GDrive-2</a>
@@ -143,7 +143,7 @@ document.getElementById('movieForm').addEventListener('submit', function (e) {
 </div>
 
 <div class="quality-block">
-  <div class="quality-title">Quality - 720P</div>
+  <div class="quality-title">Quality - ${getVal('720psize')}</div>
   <div class="link-group">
     <a href="${getVal('720pgdrive1')}">GDrive-1</a>
     <a href="${getVal('720pgdrive2')}">GDrive-2</a>
@@ -156,7 +156,7 @@ document.getElementById('movieForm').addEventListener('submit', function (e) {
 </div>
 
 <div class="quality-block">
-  <div class="quality-title">Quality - 1080P</div>
+  <div class="quality-title">Quality - ${getVal('1080psize')}</div>
   <div class="link-group">
     <a href="${getVal('1080pgdrive1')}">GDrive-1</a>
     <a href="${getVal('1080pgdrive2')}">GDrive-2</a>
@@ -179,6 +179,8 @@ document.getElementById('movieForm').addEventListener('submit', function (e) {
 <footer>
   &copy; 2025 Movie Flix. All rights reserved.
 </footer>
+
+<script type='text/javascript' src='//pl26610874.profitableratecpm.com/b0/80/37/b080376e2e859f6c371b8dbef6b33fbf.js'></script>
 
 </body>
 </html>
